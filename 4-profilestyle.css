@@ -1,0 +1,55 @@
+
+*{                       /* * is universal effect for accessing whole folder*/
+    padding: 0;
+    margin:0;
+    font-family: 'Cardo', serif;
+}
+
+.backImg{
+    width:100%;
+    height:100vh;   /* vh is used to cover whole screen */
+  --body-bg-color: #1d1d1d;
+    --text-white: #fff;
+    --logo-color:#CC6C06;
+     font-family: -apple-system, BlinkMacSystemFont,"Segoe UI","Roboto", 
+   "Oxygen","Ubuntu","Helvetica Neue", Arial, sans-serif; 
+
+    background: var(--body-bg-color);
+    background-size:cover;
+    display: flex;
+    color:whitesmoke;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+.profile{
+    width: 500px;
+    background-color: rgba(92, 47, 84, 0.164);
+    /*rgbaisusedtogiveopacity*/padding: 30px;
+    border-radius:10%;
+}
+img{  
+    height:300px;
+    border-radius:70%;
+    margin-bottom: 10px;
+}
+
+i{
+    color: white;
+}
+.profileText {
+    margin-bottom: 10px;
+}
+.profileText h2{
+    font-size:2em;
+    margin-bottom: 5px;
+
+}
+
+.profileText h3{
+    font-size:1.2em;
+    margin-bottom: 5px;
+}
+
